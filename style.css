@@ -1,0 +1,122 @@
+nav div .navbar-nav a {
+    color: rgb(110, 108, 108);
+}
+
+nav>div a nav div .navbar-nav a:hover {
+    color: rgba(155, 193, 220);
+}
+
+nav div .navbar-nav .active {
+    color: rgb(235, 241, 242) !important;
+}
+
+nav div .navbar-nav .disabled {
+    color: rgb(13, 157, 63) !important;
+
+}
+
+#bsas {
+
+    filter: brightness(40%);
+}
+
+.codoacodo { 
+    margin-left: 234%;
+    
+}
+
+
+.nav__logo--invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.banner__img--invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.banner__img--shadow {
+    filter: drop-shadow(2px 4px 6px black);
+    -webkit-filter: drop-shadow(2px 4px 6px black);
+}
+
+
+
+
+
+/* Banner */
+
+.banner {
+    height: 75vh;
+}
+
+.banner>img {
+    height: 200%;
+    object-fit: cover;
+    
+}
+
+#cards {
+        width: 80%;
+        margin-left:10%;
+        
+       
+    
+}
+
+#octubre {
+    background-color: rgb(46, 54, 52);
+       
+        
+}
+
+.informacion__text--background{
+    background-color:#353a40 ;
+}
+
+.underline__link{
+    text-decoration:dashed;
+}
+.color__button--send{
+    background-color: #96c93e;
+    color: white;
+
+} 
+.color__button--send:hover{
+    background-color: #33a74e;
+    color: white;
+
+} 
+
+
+.footer--background{
+    background:linear-gradient(to right, #1c3846 60%, #1f5271 );
+
+} 
+
+.footer--shadow{
+    filter: drop-shadow(2px, 4px, 6px, white);
+    -webkit-filter: drop-shadow(2px, 4px, 6px, white);
+}
+
+footer div{
+    
+    align-content: center;
+    
+}
+footer a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: gray;
+    transition: .3 all;
+}
+
+footer a:hover{
+    
+    color:white;
+    transition: .5 all;
+
+}
+
+    
