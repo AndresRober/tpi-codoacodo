@@ -1,4 +1,4 @@
-const button = document.querySelector("#botoncalcular");
+const button = document.querySelector("#btncalcular");
 const total = document.querySelector("#total");
 const categoria = document.querySelector("#categoria");
 const cantidad = document.querySelector("#cantidad");
